@@ -1,0 +1,109 @@
+/* Desktop */
+
+html {
+    height: 100%;
+}
+
+/* Background */
+
+body {
+    background-image: linear-gradient(#8F689E, #2EC1F1);
+    background-repeat: no-repeat;
+    width: auto;
+    height: 100%;
+}
+
+/* App Formating */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1/3 1/3 1/3;
+    grid-row-gap: 8px;
+}
+
+.app {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+}
+.app img {
+    width: 96px;
+    height: 96px;
+}
+.appname {
+    display: block;
+    text-shadow: black 7px 7px 5px;
+    margin-top: -20px;
+    color: white;
+}
+
+.app:hover {
+    background-color: white;
+    opacity: 80%;
+    border: 3px white solid;
+}
+
+.app:hover p {
+    color: black;
+}
+
+/* Footer */
+
+.footer {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    left: 0;
+    bottom: 0;
+    background-color: #646464;
+}
+
+.icon img {
+    height: 43px;
+    width: 43px;
+}
+
+.right-footer {
+    position: absolute;
+    display: flex;
+    gap: 20px;
+    margin-right: 10px;
+    right: 0;
+}
+
+.right-footer img {
+    height: 41px;
+    width: 41px;
+    margin-top: 5px;
+}
+
+.right-footer p {
+    margin-top: 4px;
+    margin-bottom: 0px;
+}
+
+.right-image, .right-text {
+    align-content: right;
+}
+
+.right-image a img:hover {
+    background-color: white;
+}
+
+/* Text */
+
+#body-normal {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 18pt;
+}
+
+.body-tiny {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 12pt;
+    color: white;
+}

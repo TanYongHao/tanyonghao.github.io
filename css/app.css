@@ -1,0 +1,247 @@
+body {
+    background-color: #B8B8B8;
+    border: 10px white solid;
+    margin: 0;
+    height: 720px;
+    width: 1080px;
+}
+
+.app-ui {
+    display: flex;
+    height: 32px;
+    width: 1090px;
+    top: 0;
+    position: absolute;
+    left: 0;
+    background-color: white;
+}
+
+#close-button-2, #close-button-3, #close-button-4 {
+    position: absolute;
+    align-content: right;
+    background-color: black;
+    right: 0;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.left-ui {
+    position: absolute;
+    display: flex;
+    left: 0;
+    top: 0;
+}
+
+.left-text {
+    margin-top: -25px;
+    margin-left: 5px;
+}
+
+.ui-image img {
+    width: 26px;
+    height: 26px;
+    margin-left: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 1/3 1/3 1/3;
+    grid-row-gap: 8px;
+}
+
+.app {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+    margin-top: 50px;
+    margin-left: 30px
+}
+.app img {
+    width: 128px;
+    height: 128px;
+}
+.appname {
+    display: block;
+    text-shadow: black 7px 7px 5px;
+    margin-top: -25px;
+    color: white;
+}
+
+.app:hover {
+    background-color: white;
+    opacity: 80%;
+}
+
+.app:hover p {
+    color: black;
+}
+
+/* Contacts */
+
+.content {
+    display: flex;
+}
+
+#phone {
+    margin-top: 50px;
+}
+
+.contacts-left-box img {
+    height: 247px;
+    width: 440px;
+}
+
+.contacts-left-box {
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+
+.caller {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 100px;
+}
+
+.caller h3 {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.contacts-right-box img {
+    height: 62px;
+    width: 62px;
+}
+
+.contacts-bottom-right-box {
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+#form-name, #form-email, #form-num, #form-dob {
+    height: 32px;
+    width: 445px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+#form-input {
+    width: 445px;
+    height: 90px;
+    padding: 2px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+#form-submit {
+    height: 37px;
+    width: 207px;
+    justify-content: center;
+    align-self: center;
+}
+ 
+/* ToDo */
+
+.todo-top {
+    display: flex;
+    margin-top: 63px;
+    justify-content: center;
+}
+
+.main-image img {
+    width: 521px;
+    height: 262px;
+}
+
+.side-image img {
+    width: 93px;
+    height: 262px;
+    margin-left: 65px;
+}
+
+ul {
+    list-style: none;
+    margin-left: -150px;
+    margin-right: 20px;
+}
+
+.language-text {
+    margin-top: -30px;
+}
+
+#title {
+    text-align: center;
+    margin-top: -5px;
+}
+
+#todo-link {
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 16pt;
+    color: white;
+    margin-top: -30px;
+}
+
+/* Text */
+
+h1 {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 48pt;
+    color: white;
+}
+
+#contacts-text-left {
+    font-size: 36px;
+    font-family: Montserrat;
+    font-weight: 600;
+    color: white;
+    background-color: #8B6239;
+    border: 5px solid #8B6239;
+}
+
+h2 {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 24pt;
+    color: white;
+}
+
+h3 {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 21pt;
+    color: white;
+}
+
+#body-normal {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 18pt;
+    color: white;
+    margin-left: 10px;
+}
+
+#body-normal-top {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 18pt;
+}
+
+#body-small {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 16pt;
+    color: white;
+}
+
+.body-tiny {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 12pt;
+    color: white;
+}

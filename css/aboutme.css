@@ -1,0 +1,144 @@
+body {
+    background-image: linear-gradient(#5E43AB, #B1B6AD);
+    height: auto;
+    width: auto;
+    border: 10px white solid;
+    margin: 0;
+}
+
+#myself {
+    height: 346px;
+    width: 319px;
+    margin-top: 79px;
+    margin-left: 46px;
+}
+
+.app-ui {
+    display: flex;
+    height: 32px;
+    width: 1090px;
+    top: 0;
+    position: absolute;
+    left: 0;
+    background-color: white;
+}
+
+#close-button-1 {
+    position: absolute;
+    align-content: right;
+    background-color: black;
+    right: 0;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.left-ui {
+    position: absolute;
+    display: flex;
+    left: 0;
+    top: 0;
+}
+
+.left-text {
+    margin-top: -25px;
+}
+
+.ui-image img {
+    width: 26px;
+    height: 26px;
+    margin-left: 10px;
+}
+
+.top-text-skills ul {
+    text-decoration: none;
+}
+
+.top-info {
+    display: flex;
+}
+
+.right-text-skills  {
+    display: flex;
+    margin-top: -60px;
+}
+
+.right-text {
+    margin-left: 10px;
+}
+
+.intro-description {
+    margin-top: -30px;
+}
+
+#intro {
+    margin-top: 60px;
+}
+
+#intro-name {
+    margin-top: -50px;
+}
+
+ul {
+    list-style: none;
+    margin-left: -20px;
+}
+
+.skill-text {
+    margin-top: -25px;
+}
+
+.bottom-text {
+    margin-top: -90px;
+    margin-left: 40px;
+}
+
+
+/* Text */
+
+h1 {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 48pt;
+    color: white;
+}
+
+h2 {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 24pt;
+    color: white;
+}
+
+h3 {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 21pt;
+    color: white;
+}
+
+#body-normal {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 18pt;
+    color: white;
+}
+
+#body-normal-top {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 18pt;
+}
+
+#body-small {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 16pt;
+    color: white;
+}
+
+.body-tiny {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 12pt;
+    color: white;
+}
