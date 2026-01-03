@@ -37,12 +37,12 @@ document.getElementById('app3').addEventListener('click', () => openPopup('portf
 
 const now = new Date();
 
-const year = now.getFullYear();
-const month = now.getMonth() + 1;
-const day = now.getDate();
+document.getElementById('time').innerHTML =
+  now.toLocaleTimeString([], {
+    hour: 'numeric',
+    minute: '2-digit',
+    hour12: true
+  });
 
-const hour = now.getHours();
-const minutes = now.getMinutes();
-
-document.getElementById('time').innerHTML = hour + ":" + minutes;
-document.getElementById('date').innerHTML = day + "/" + month + "/" + year;
+document.getElementById('date').innerHTML =
+  now.toLocaleDateString('en-GB');
