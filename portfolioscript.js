@@ -30,3 +30,5 @@ function openPopup(page) {
 }
 
 document.getElementById('app4').addEventListener('click', () => openPopup('todo.html'));
+document.getElementById('app5').addEventListener('click', () => openPopup('game.html'));
+document.getElementById('app6').addEventListener('click', () => openPopup('website.html'));

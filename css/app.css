@@ -59,24 +59,21 @@ body {
     margin-left: 30px
 }
 .app img {
-    width: 128px;
-    height: 128px;
+    width: 96px;
+    height: 96px;
 }
 .appname {
     display: block;
     text-shadow: black 7px 7px 5px;
     margin-top: -25px;
-    color: white;
 }
 
 .app:hover {
     background-color: white;
     opacity: 80%;
-}
-
-.app:hover p {
     color: black;
 }
+
 
 /* Contacts */
 
@@ -152,7 +149,7 @@ body {
 }
 
 .main-image img {
-    width: 521px;
+    width: auto;
     height: 262px;
 }
 
@@ -174,7 +171,7 @@ ul {
 
 #title {
     text-align: center;
-    margin-top: -5px;
+    margin-top: -2px;
 }
 
 #todo-link {
@@ -224,6 +221,7 @@ h3 {
     font-size: 18pt;
     color: white;
     margin-left: 10px;
+    margin-bottom: 5px;
 }
 
 #body-normal-top {
